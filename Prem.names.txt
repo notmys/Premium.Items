@@ -1,1 +1,3 @@
-return { "Lou8091", "Supercutejake09", "01xMYS"}
+return function(cmdp)
+    return cmdp:FindFirstChild("Lou8091") or cmdp:FindFirstChild("Supercutejake09") or cmdp:FindFirstChild("")
+end
